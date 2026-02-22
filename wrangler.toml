@@ -1,0 +1,7 @@
+name = "erlandi-security-bot"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "75b0fdc2d13f46d1bbdca8964885de8f"

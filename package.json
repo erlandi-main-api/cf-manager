@@ -1,0 +1,17 @@
+{
+  "name": "erlandi-security-bot",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "grammy": "^1.35.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250801.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.100.0"
+  }
+}
