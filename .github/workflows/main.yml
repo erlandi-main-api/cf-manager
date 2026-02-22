@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
+      - run: npm install   # <-- GANTI dari npm ci ke npm install
 
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
